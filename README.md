@@ -120,7 +120,7 @@ You can deploy this project using: **Not available**
 👤 **Gilbert Mutai**
 
 - GitHub: [GitHub](https://github.com/Mutai-Gilbert)
-- - Twitter: [Gilbert Mutai](https://twitter.com/iam_pkoech)
+- Twitter: [Gilbert Mutai](https://twitter.com/iam_pkoech)
 - LinkedIn: [Gilbert Mutai](https://www.linkedin.com/in/mutai-kipkoech/)
 
 
