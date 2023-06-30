@@ -16,7 +16,8 @@ class FoodsController < ApplicationController
       redirect_to foods_path, notice: 'Food Created!!'
     else
       @errors = @food.errors.full_messages
-      render :new, alert: @errors
+      flash.now[:alert] = @errors
+      render :new
     end
   end
 
