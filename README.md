@@ -2,8 +2,8 @@
 
 # 📗 Table of Contents
 
-- [📗 Table of Contents](#table-of-contents)
-- [📖 \[Blog-rails-app\] ](#about-project)
+- [📗 Table of Contents](#-table-of-contents)
+- [📖 Blog Rails App ](#-blog-rails-app-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
@@ -120,6 +120,8 @@ You can deploy this project using: **Not available**
 👤 **Gilbert Mutai**
 
 - GitHub: [GitHub](https://github.com/Mutai-Gilbert)
+- Twitter: [Gilbert Mutai](https://twitter.com/iam_pkoech)
+- LinkedIn: [Gilbert Mutai](https://www.linkedin.com/in/mutai-kipkoech/)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
