@@ -3,7 +3,7 @@
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 Blog Rails App ](#-blog-rails-app-)
+- [📖 Recipe-App ](#-blog-rails-app-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
@@ -20,9 +20,9 @@
   - [🙏 Acknowledgments ](#-acknowledgments-)
   - [📝 License ](#-license-)
 
-# 📖 Blog Rails App <a name="about-project"></a>
+# 📖 Recipe-App <a name="about-project"></a>
 
-A blog application developed using rails
+``The Recipe app is a comprehensive tool for managing your recipes and ingredients. It enables you to save ingredients, keep track of your inventory, create recipes, and generate a shopping list based on your available items and the requirements of each recipe.``
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -51,14 +51,12 @@ A blog application developed using rails
 
 ### Key Features <a name="key-features"></a>
 
-- **List all Users**
-- **List all Posts**
-- **List all of Comments for a post**
-- **List all of likes for a post**
-- **Views**
-- **Forms**
-- **Devise**
-- **Authorisation**
+- **log in**
+- **Sign in**
+- **Create A Recipe**
+- **Add Food**
+- **Generate Shopping list According to recipe added food**
+- **Public And Private Recipe feature**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -88,7 +86,7 @@ Clone this repository to your desired folder:
 
 ```sh
   git https://github.com/atok624/Recipe-App.git
-  cd Blog-app-rails
+  cd Recipe-App
 ```
 
 ### Install
@@ -123,17 +121,6 @@ You can deploy this project using: **Not available**
 - Twitter: [Gilbert Mutai](https://twitter.com/iam_pkoech)
 - LinkedIn: [Gilbert Mutai](https://www.linkedin.com/in/mutai-kipkoech/)
 
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FUTURE FEATURES -->
-
-## 🔭 Future Features <a name="future-features"></a>
-
-- **User Authentication**
-- **Add Post**
-- **Add Comment for a post**
-- **Add likes for a post**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
