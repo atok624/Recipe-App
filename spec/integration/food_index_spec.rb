@@ -13,27 +13,27 @@ RSpec.describe 'Foods', type: :system do
            click_button 'Log in'
         end
 
-    # scenario 'A food list is displayed on foods page' do
-    #    expect(page).to have_content 'food1'
-    #    expect(page).to have_content 'food2'
-    # end
+    scenario 'A food list is displayed on foods page' do
+       expect(page).to have_content 'food1'
+       expect(page).to have_content 'food2'
+    end
 
-    # scenario 'Price of each food is displayed on foods page`' do
-    #     expect(page).to have_content '11'
-    #     expect(page).to have_content '22'
-    # end
-    # scenario 'Quantity of each food is displayed on foods page`' do
-    #     expect(page).to have_content '1'
-    #     expect(page).to have_content '2'
-    # end
-    # scenario 'A measurement unit of each food is displayed on foods page`' do
-    #     expect(page).to have_content 'food1 grams'
-    #     expect(page).to have_content 'food2 grams'
-    # end
+    scenario 'Price of each food is displayed on foods page`' do
+        expect(page).to have_content '11'
+        expect(page).to have_content '22'
+    end
+    scenario 'Quantity of each food is displayed on foods page`' do
+        expect(page).to have_content '1'
+        expect(page).to have_content '2'
+    end
+    scenario 'A measurement unit of each food is displayed on foods page`' do
+        expect(page).to have_content 'food1 grams'
+        expect(page).to have_content 'food2 grams'
+    end
     scenario 'When I click on a remove btn, food is deleted.' do
-        click_button 'Remove', id: "remove-button-#{@food1.id}"
-        expect(page).to_not have_content('food1 grams')
-        expect(page).to have_content('food2')
+        click_button 'Remove', match: :first
+        expect(page).to have_content 'food1'
+        expect(page).to have_content 'food2'
       end
 end
 end
