@@ -17,12 +17,12 @@ RSpec.describe Food, type: :model do
   it 'should fail to save a food without a user' do
     food_without_user = Food.new(name: 'Food without user', measurement_unit: 'kg', price: '1', quantity: 1)
     expect(food_without_user.save).to be_falsey
-    expect(food_without_user.errors[:user]).to include("must exist")
+    expect(food_without_user.errors[:user]).to include('must exist')
   end
 
   it 'should fail to save a food with an invalid user' do
     food_with_invalid_user = Food.new(user: nil, name: 'Invalid food', measurement_unit: 'kg', price: '1', quantity: 1)
     expect(food_with_invalid_user.save).to be_falsey
-    expect(food_with_invalid_user.errors[:user]).to include("must exist")
+    expect(food_with_invalid_user.errors[:user]).to include('must exist')
   end
 end
