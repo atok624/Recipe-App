@@ -13,19 +13,19 @@ RSpec.describe 'Recipe', type: :system do
             click_button 'Log in'
         end
 
-        # it 'Recipes List' do
-        #     expect(page).to have_content 'Test recipe'
-        #     expect(page).to have_content 'Test recipe2'
-        # end
-        # it 'Recipe description' do
-        #     expect(page).to have_content 'Test description'
-        #     expect(page).to have_content 'Test description2'
-        # end
+        it 'Recipes List' do
+            expect(page).to have_content 'Test recipe'
+            expect(page).to have_content 'Test recipe2'
+        end
+        it 'Recipe description' do
+            expect(page).to have_content 'Test description'
+            expect(page).to have_content 'Test description2'
+        end
 
-        # it 'When I click on that page, I expect to be taken to that page' do
-        #     click_link 'Test recipe'
-        #     expect(page).to have_current_path recipe_path(@recipe)
-        # end
+        it 'When I click on that page, I expect to be taken to that page' do
+            click_link 'Test recipe'
+            expect(page).to have_current_path recipe_path(@recipe)
+        end
         it 'When I click on a recipe remove btn, recipe is deleted.' do
             click_button 'REMOVE', match: :first
             expect(page).to_not have_content('Test description')
