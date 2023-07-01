@@ -1,0 +1,15 @@
+<h1 style='text-align: center'>Public Recipes</h1>
+<div class = "public_recipes" style='display: flex; justify-content: center; align-items: center; flex-direction: column'>
+  <% @recipes.each do |recipe| %>
+    <div class = "recipe_container" style='display: flex; margin: 25px 0; border: 1px solid #d0d1d1; padding: 10px;'>
+      <div class = "recipe_creator" style='margin-right: 30px'>
+        <h3><%= link_to recipe.name, recipe_path(id: recipe.id) %></h3>
+        <p>By: <%= recipe.user.name %></p>
+      </div>
+      <div class = "recipe_details">
+        <p>Total food items: <%= recipe.recipe_food.count %></p>
+        <p>Total price: $<%=recipe.recipe_food.sum { |recipe_food| recipe_food.quantity * recipe_food.food.price }%></p>
+      </div>
+    </div>
+  <% end %>
+</div>
